@@ -1,5 +1,7 @@
 package com.course.entities;
 
+import com.course.enums.Genre;
+
 /**
  * ConsumerEntity
  *
@@ -14,6 +16,19 @@ public class ConsumerEntity {
     private String lastName;
     private Integer age;
     private String telephoneNumber;
+    private Genre genre;
+
+    public Genre getGenre() {
+        return genre;
+    }
+
+    public void setGenre(Genre genre) {
+        this.genre = genre;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
