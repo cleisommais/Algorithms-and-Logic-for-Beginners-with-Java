@@ -1,5 +1,10 @@
 package com.course.entities;
 
+/**
+ * @author cleison.melo
+ * @version 1.0
+ */
+
 public class LibraryEntity {
     private Integer id;
     private String name;

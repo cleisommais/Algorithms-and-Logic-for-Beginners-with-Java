@@ -2,6 +2,10 @@ package com.course.entities;
 
 import java.util.Date;
 
+/**
+ * @author cleison.melo
+ * @version 1.0
+ */
 public class BookBorrowEntity {
     private Integer id;
     private Date dateBorrow;

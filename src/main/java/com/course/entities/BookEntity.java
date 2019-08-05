@@ -2,6 +2,10 @@ package com.course.entities;
 
 import com.course.enums.BookTypes;
 
+/**
+ * @author cleison.melo
+ * @version 1.0
+ */
 public class BookEntity {
     private Integer id;
     private String name;

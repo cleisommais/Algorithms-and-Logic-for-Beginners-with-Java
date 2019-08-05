@@ -17,6 +17,7 @@ package com.course;
 import java.util.Scanner;
 
 public class SumGrades {
+
     private static void sumTwoGrades() {
         double grade01, grade02, result;
         Scanner scanner = new Scanner(System.in);
